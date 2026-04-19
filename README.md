@@ -24,12 +24,12 @@ This project evaluates **MiniMax-M2.7** on the **CoSQL** text-to-SQL benchmark u
 
 | Method | Execution Accuracy (%) |
 | :--- | :---: |
-| Zero-shot | 54.75 |
-| Few-shot | 54.83 |
-| Self-Refine | 52.31 |
-| GrowPrompt | 54.86 |
-| MemPrompt | 53.02 |
-| Self-StreamICL | 54.94 |
+| Zero-shot | 58.75 |
+| Few-shot | 58.83 |
+| Self-Refine | 56.31 |
+| GrowPrompt | 58.86 |
+| MemPrompt | 57.02 |
+| Self-StreamICL | 58.94 |
 
 Streaming and non-streaming methods achieve similar execution accuracy (~54%). MemPrompt and Self-StreamICL marginally outperform the zero-shot baseline, suggesting that retrieving relevant past examples provides a small but consistent benefit on this benchmark.
 
