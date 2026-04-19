@@ -1,0 +1,9 @@
+agent_name: "grow_prompt"
+mode: "normal"
+seed: 42
+llm:
+  series: "minimax"
+  model_name: "MiniMax-M2.5"
+  temperature: 0.0
+  max_tokens: 1000
+top_k: 16
